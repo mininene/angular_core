@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+  <app-mensaje-component *ngFor="let items of mensajes" [texto]="items">
+    <!--[texto]="items (envio variable)       texto="holaaa (envio texto)   "muestra el texto del componente mensaje-->
+
+  </app-mensaje-component>
+
+  <div *ngFor="let items of mensajes">  <!--muestra los items del array-->
+    {{items}}
+  </div>
+
+
+
+
+  Hola {{nombre}}
+
+  <input type="button" (click)="cambiaNombre()" value="Cambiar" />
+
+
+
+
+</body>
+</html>

@@ -37,4 +37,4 @@ import { MensajeComponent } from './mensaje/mensaje.component'; // importo el co
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {  }
